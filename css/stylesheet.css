@@ -1,0 +1,55 @@
+main{
+    margin-left: 1em;
+}
+/* div{
+    display: block;
+} */
+.astolfo-navBar{
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    background: url("./../img/jazz.jpg") no-repeat 50% #bfbfbf;
+    background-size: 8em;
+    width: 100%;
+    height: 8em;
+}
+
+.astolfo-navBar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.astolfo-navBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#astolfo-NavBar-ChildDiv {
+    margin-top: 2em;
+}
+
+.signUpElems{
+    display: block;
+    margin-top: .5em;
+}
+
+.loginRegister{
+    width: 13em;
+}
+
+.logReg{
+    overflow: hidden;
+    margin-top: 2px;
+    width: 16em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
